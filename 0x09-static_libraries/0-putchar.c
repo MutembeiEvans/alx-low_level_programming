@@ -17,7 +17,5 @@ int _putchar(char c)
 	_putchar('r');
 	_putchar('\n');
 
-{ printf("Awesome..,\n"); }
-
 	return (0);
 }
