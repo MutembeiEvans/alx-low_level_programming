@@ -20,7 +20,7 @@ void print_dog(struct dog *d);
 /**
  * dog - rename struct with typedef
  */
-typedef struct dog my_dog;
-my_dog *new_dog(char *name, char *owner, float age);
-void free_dog(my_dog *d);
+typedef struct dog dog_t;
+dog_t *new_dog(char *name, char *owner, float age);
+void free_dog(dog_t *d);
 #endif
