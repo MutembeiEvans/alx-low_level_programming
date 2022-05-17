@@ -5,8 +5,7 @@
 /**
   *print_numbers-prints numbers
   *@separator: string to be printed between numbers.
-  *n: Number od integers passed to the function
-  @...: Variable number of numbers to be printed
+  *@n: Number of integers passed to the function
   */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
